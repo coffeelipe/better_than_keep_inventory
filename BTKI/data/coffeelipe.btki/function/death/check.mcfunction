@@ -1,0 +1,1 @@
+execute if score @s coffeelipe.btki.deaths > @s coffeelipe.btki.prev_deaths run function coffeelipe.btki:death/run
