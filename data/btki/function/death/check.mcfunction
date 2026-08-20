@@ -1,0 +1,1 @@
+execute if score @s btki.deaths > @s btki.prev_deaths run function btki:death/run
