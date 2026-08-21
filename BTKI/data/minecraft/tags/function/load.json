@@ -1,5 +1,1 @@
-{
-  "values": [
-    "coffeelipe.btki:load"
-  ]
-}
+{"values":["coffeelipe.btki:on_load"]}

@@ -1,7 +1,8 @@
 {
-  "pack": {
-    "description": "Better Than Keep Inventory — Minecraft 26.x",
-    "min_format": 101,
-    "max_format": 107
-  }
+	"pack":{
+		"pack_format": 107,
+		"min_format": 101,
+		"max_format": 117,
+		"description": "btki Made with MC-Build!"
+	}
 }
