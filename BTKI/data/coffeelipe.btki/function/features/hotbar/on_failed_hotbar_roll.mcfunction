@@ -1,0 +1,1 @@
+function coffeelipe.btki:features/hotbar/hotbar_save_or_replace with storage coffeelipe.btki:process
