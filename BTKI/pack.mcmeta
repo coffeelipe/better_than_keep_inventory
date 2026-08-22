@@ -1,8 +1,11 @@
 {
-	"pack":{
-		"pack_format": 107,
-		"min_format": 101,
-		"max_format": 117,
-		"description": "btki Made with MC-Build!"
-	}
+  "pack": {
+    "description": "Better Than Keep Inventory",
+    "pack_format": 107,
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 108
+  }
 }

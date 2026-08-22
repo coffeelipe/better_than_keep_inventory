@@ -1,3 +1,1 @@
-# Generated with MC-Build
-
-execute as @a run function coffeelipe.btki:features/run
+execute as @a if score @s btki.deathCount > @s btki.prev_deathCount run function coffeelipe.btki:run

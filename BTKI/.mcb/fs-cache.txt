@@ -1,6 +1,0 @@
-data/coffeelipe.btki/function/on_load.mcfunction:66a87d4f5eb467de62f55f9cfd4b43357ee54dda
-data/coffeelipe.btki/function/on_tick.mcfunction:233efdfd7d83ecdc7b04c3c95c3f31f84e69aa8e
-data/coffeelipe.btki/function/run.mcfunction:d1a71c8789412d6fa6ac05e41beaedfae1efacc2
-data/coffeelipe.btki/function/utils/init.mcfunction:fa354100274f4280106fb243191e410b54327a32
-data/minecraft/tags/function/load.json:6e6c46f5974e65e1df2d3e24d0279249e3b1ade2
-data/minecraft/tags/function/tick.json:1c0bdb02da92cc45441081a8be36187f64c31576
