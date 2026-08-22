@@ -1,3 +1,3 @@
 execute store result score @s btki.roll run random value 0..99
-execute if score @s btki.roll < @s btki.lossPercent run tellraw @s [{player:"@s", color: "aqua"},{"text":" rolled a ", color: "red"},{"score":{name: "@s", objective:"btki.roll"}, color: "red"},{"text":" deleting items", color: "red"}]
-execute if score @s btki.roll >= @s btki.lossPercent run tellraw @s [{player:"@s", color: "aqua"},{"text":" rolled a ", color: "green"},{"score":{name: "@s", objective:"btki.roll"}, color: "green"},{"text":" keeping items", color: "green"}]
+# execute if score @s btki.roll < @s btki.lossPercent run tellraw @s [{player:"@s", color: "aqua"},{"text":" rolled a ", color: "red"},{"score":{name: "@s", objective:"btki.roll"}, color: "red"},{"text":" deleting items", color: "red"}]
+# execute if score @s btki.roll >= @s btki.lossPercent run tellraw @s [{player:"@s", color: "aqua"},{"text":" rolled a ", color: "green"},{"score":{name: "@s", objective:"btki.roll"}, color: "green"},{"text":" keeping items", color: "green"}]
