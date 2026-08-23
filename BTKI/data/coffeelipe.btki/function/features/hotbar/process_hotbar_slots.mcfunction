@@ -1,5 +1,4 @@
-function coffeelipe.btki:features/roll_for_save
-execute if score @s btki.roll matches ..48 run function coffeelipe.btki:features/hotbar/on_failed_hotbar_roll
+function coffeelipe.btki:features/hotbar/hotbar_save_or_replace with storage coffeelipe.btki:process
 
 # increment slot index
 scoreboard players add #btkiInternal btki.slotIndex 1
