@@ -1,4 +1,3 @@
-tellraw @s [{text:"current inventory index: "},{storage:"coffeelipe.btki:process", nbt:"slot"}]
 function coffeelipe.btki:features/roll_for_save
 execute if score @s btki.roll < @s btki.lossPercent run function coffeelipe.btki:features/inventory/on_failed_inventory_roll
 
