@@ -1,6 +1,5 @@
-tellraw @s [{text:"current hotbar index: "},{storage:"coffeelipe.btki:process", nbt:"slot"}]
 function coffeelipe.btki:features/roll_for_save
-execute if score @s btki.roll < @s btki.lossPercent run function coffeelipe.btki:features/hotbar/on_failed_hotbar_roll
+execute if score @s btki.roll matches ..48 run function coffeelipe.btki:features/hotbar/on_failed_hotbar_roll
 
 # increment slot index
 scoreboard players add #btkiInternal btki.slotIndex 1
