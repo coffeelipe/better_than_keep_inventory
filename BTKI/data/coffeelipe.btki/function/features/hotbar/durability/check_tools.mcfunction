@@ -1,0 +1,7 @@
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/stone run return run scoreboard players operation #btkiInternal btki.durability = #btkiStone btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/wood run return run scoreboard players operation #btkiInternal btki.durability = #btkiWood btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/copper run return run scoreboard players operation #btkiInternal btki.durability = #btkiCopper btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/iron run return run scoreboard players operation #btkiInternal btki.durability = #btkiIron btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/gold run return run scoreboard players operation #btkiInternal btki.durability = #btkiGold btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/diamond run return run scoreboard players operation #btkiInternal btki.durability = #btkiDiamond btki.toolDurability
+$execute if items entity @s hotbar.$(slot) #coffeelipe.btki:tool_material/netherite run return run scoreboard players operation #btkiInternal btki.durability = #btkiNetherite btki.toolDurability
