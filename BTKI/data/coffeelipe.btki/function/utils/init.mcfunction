@@ -17,4 +17,6 @@ scoreboard players set #btkiInternal btki.itemCount 0
 scoreboard players set #btkiInternal btki.fixedPoint 100
 scoreboard players set #btkiInternal btki.slotIndexToByte 9
 
+function coffeelipe.btki:utils/init_durability_constants
+
 tellraw @s {"text":"Better Than Keep Inventory loaded!","color":"green"}
