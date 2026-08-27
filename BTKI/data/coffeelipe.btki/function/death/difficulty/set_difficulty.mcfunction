@@ -1,1 +1,0 @@
-scoreboard players set @s coffeelipe.btki.difficulty 1

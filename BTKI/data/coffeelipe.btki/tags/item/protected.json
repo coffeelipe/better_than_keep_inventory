@@ -1,9 +1,9 @@
 {
-  "values": [
-    "#coffeelipe.btki:tools",
-    "#coffeelipe.btki:armor",
-    "minecraft:wither_skeleton_skull",
-    "minecraft:nether_star",
-    "minecraft:dragon_egg"
-  ]
+    "values": [
+        "#coffeelipe.btki:durability_items",
+        "wither_skeleton_skull",
+        "nether_star",
+        "silence_armor_trim_smithing_template",
+        "dragon_egg"
+    ]
 }

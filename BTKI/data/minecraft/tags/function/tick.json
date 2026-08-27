@@ -1,5 +1,1 @@
-{
-  "values": [
-    "coffeelipe.coffeelipe.btki:tick"
-  ]
-}
+{"values": ["coffeelipe.btki:on_tick"]}
