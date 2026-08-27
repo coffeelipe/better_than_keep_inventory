@@ -4,12 +4,12 @@ scoreboard objectives add btki.lossPercent dummy
 scoreboard objectives add btki.damagePercent dummy
 scoreboard objectives add btki.deathCount deathCount
 scoreboard objectives add btki.prev_deathCount dummy
-scoreboard objectives add btki.roll dummy
+scoreboard objectives add btki.level dummy
 scoreboard objectives add btki.slotIndex dummy
 scoreboard objectives add btki.temp dummy
 scoreboard objectives add btki.itemCount dummy
-scoreboard objectives add btki.fixedPoint dummy
 scoreboard objectives add btki.slotIndexToByte dummy
+scoreboard objectives add btki.fixedPoint dummy
 
 scoreboard players set #btkiInternal btki.slotIndex 0
 scoreboard players set #btkiInternal btki.temp 0
