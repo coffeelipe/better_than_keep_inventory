@@ -14,3 +14,4 @@ $execute if items entity @s hotbar.$(slot) minecraft:crossbow run return run sco
 $execute if items entity @s hotbar.$(slot) minecraft:shield run return run scoreboard players operation #btkiInternal btki.durability = #btkiShield btki.durability
 $execute if items entity @s hotbar.$(slot) minecraft:trident run return run scoreboard players operation #btkiInternal btki.durability = #btkiTrident btki.durability
 $execute if items entity @s hotbar.$(slot) minecraft:mace run return run scoreboard players operation #btkiInternal btki.durability = #btkiMace btki.durability
+$execute if items entity @s hotbar.$(slot) #minecraft:shulker_boxes run return run scoreboard players operation #btkiInternal btki.durability = #btkiNetherite btki.toolDurability
