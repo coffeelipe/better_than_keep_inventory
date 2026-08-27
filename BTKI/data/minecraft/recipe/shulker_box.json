@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "S",
+        "C",
+        "S"
+    ],
+    "key": {
+        "S": "minecraft:shulker_shell",
+        "C": "minecraft:chest"
+    },
+    "result": {
+        "id": "minecraft:shulker_box",
+        "count": 1,
+        "components": {
+            "minecraft:max_damage": 2031,
+            "minecraft:damage": 0
+        }
+    }
+}
