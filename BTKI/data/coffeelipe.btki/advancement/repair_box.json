@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "holding_shulker_box_mainhand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:shulker_box"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "holding_shulker_box_offhand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "items": [
+                                "shulker_box"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "right_click": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "repairable": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["holding_shulker_box_offhand", "holding_shulker_box_mainhand"],
+        ["right_click"]
+    ],
+    "rewards": {
+        "function": "coffeelipe.btki:features/shulker_box/repair_box"
+    }
+}
