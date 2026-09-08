@@ -10,6 +10,8 @@ scoreboard objectives add btki.temp dummy
 scoreboard objectives add btki.itemCount dummy
 scoreboard objectives add btki.slotIndexToByte dummy
 scoreboard objectives add btki.fixedPoint dummy
+scoreboard objectives add btki.timer dummy
+scoreboard objectives add btki.successfulRepair dummy
 
 scoreboard players set #btkiInternal btki.slotIndex 0
 scoreboard players set #btkiInternal btki.temp 0
