@@ -15,7 +15,20 @@
         "count": 1,
         "components": {
             "minecraft:max_damage": 2031,
-            "minecraft:damage": 0
+            "minecraft:damage": 0,
+            "minecraft:consumable": {
+                "consume_seconds": 1.5,
+                "sound": "minecraft:entity.armor_stand.hit",
+                "animation": "brush",
+                "has_consume_particles": false
+            },
+            "use_cooldown": {
+                "seconds": 1,
+                "cooldown_group": "btki_shulker_box"
+            },
+            "minecraft:custom_data": {
+                "repairable": true
+            }
         }
     }
 }
