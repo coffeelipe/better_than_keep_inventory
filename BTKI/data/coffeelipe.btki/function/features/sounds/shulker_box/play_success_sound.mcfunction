@@ -1,0 +1,2 @@
+execute as @s[tag=!btki.playing_sounds] run function coffeelipe.btki:features/sounds/shulker_box/tag_as_playing
+execute as @s[tag=btki.playing_sounds] run function coffeelipe.btki:features/sounds/shulker_box/time_success_sounds
