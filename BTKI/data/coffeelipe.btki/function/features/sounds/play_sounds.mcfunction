@@ -1,0 +1,1 @@
+execute if score @s btki.successfulRepair matches 1 run function coffeelipe.btki:features/sounds/shulker_box/play_success_sound
