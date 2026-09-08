@@ -1,0 +1,2 @@
+execute if items entity @s weapon.offhand minecraft:chest run return run function coffeelipe.btki:features/shulker_box/successful_mainhand_repair
+execute unless items entity @s weapon.offhand minecraft:chest run function coffeelipe.btki:features/shulker_box/failed_mainhand_repair
