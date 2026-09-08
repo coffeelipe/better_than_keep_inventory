@@ -17,7 +17,10 @@
                                 "minecraft:damage",
                                 "minecraft:container",
                                 "minecraft:container_loot",
-                                "minecraft:lock"
+                                "minecraft:lock",
+                                "minecraft:custom_data",
+                                "minecraft:consumable",
+                                "minecraft:use_cooldown"
                             ]
                         },
                         {
