@@ -21,7 +21,7 @@
                     "equipment": {
                         "offhand": {
                             "items": [
-                                "shulker_box"
+                                "minecraft:shulker_box"
                             ]
                         }
                     }
